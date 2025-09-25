@@ -1,0 +1,158 @@
+{
+  "customer": {
+    "company": "Reliance ltd",
+    "industry": "Retail",
+    "region": "IN",
+    "use_case": "Personalized recommendations",
+    "objectives": [
+      "Improve conversion"
+    ],
+    "timeline_weeks": 6,
+    "budget_min": 100000.0,
+    "budget_max": 500000.0,
+    "discovery_notes": "They need web personalization and a CDP integration with consent management."
+  },
+  "plan": {
+    "customer": {
+      "company": "Reliance ltd",
+      "industry": "Retail",
+      "region": "IN",
+      "use_case": "Personalized recommendations",
+      "objectives": [
+        "Improve conversion"
+      ],
+      "timeline_weeks": 6,
+      "budget_min": 100000.0,
+      "budget_max": 500000.0,
+      "discovery_notes": "They need web personalization and a CDP integration with consent management."
+    },
+    "objectives": [
+      "Improve conversion"
+    ],
+    "selected_skus": [
+      {
+        "sku": "CDP-001",
+        "reason": "Matches features for Personalized recommendations",
+        "must_have": true
+      },
+      {
+        "sku": "REC-101",
+        "reason": "Matches features for Personalized recommendations",
+        "must_have": true
+      },
+      {
+        "sku": "CNS-010",
+        "reason": "Matches features for Personalized recommendations",
+        "must_have": true
+      }
+    ],
+    "solution_overview": "This proposal outlines a tailored solution for Reliance ltd in the Retail industry.\nIt addresses goals such as Improve conversion using our proven components.\nThe approach emphasizes quick time-to-value, scalability, and measurable ROI within 6 weeks.",
+    "architecture": [
+      {
+        "component": "Web/App",
+        "role": "Integration SDK"
+      },
+      {
+        "component": "Backend",
+        "role": "Core APIs & Orchestration"
+      },
+      {
+        "component": "Analytics",
+        "role": "Dashboards & Reporting"
+      }
+    ],
+    "implementation_plan": [
+      {
+        "phase": "Discovery",
+        "weeks": 1
+      },
+      {
+        "phase": "Integration",
+        "weeks": 3
+      },
+      {
+        "phase": "UAT & Training",
+        "weeks": 2
+      },
+      {
+        "phase": "Go-live",
+        "weeks": 1
+      }
+    ],
+    "pricing": {
+      "currency": "INR",
+      "items": [
+        {
+          "sku": "CDP-001",
+          "qty": 1
+        },
+        {
+          "sku": "REC-101",
+          "qty": 1
+        },
+        {
+          "sku": "CNS-010",
+          "qty": 1
+        }
+      ]
+    },
+    "risks_mitigations": [
+      {
+        "risk": "Data quality issues",
+        "mitigation": "Pre-launch validation jobs"
+      },
+      {
+        "risk": "Integration delays",
+        "mitigation": "Early sandbox access & weekly checkpoints"
+      }
+    ],
+    "roi_summary": {
+      "period_months": 12,
+      "benefits": [
+        "+2-5% conversion lift",
+        "-10% churn",
+        "Faster onboarding"
+      ]
+    },
+    "citations": [
+      "products.csv#REC-101",
+      "kb\\consent_faq.md",
+      "products.csv#CNS-010",
+      "kb\\case_retail.md",
+      "products.csv#CDP-001"
+    ],
+    "needs_clarification": null
+  },
+  "pricing": {
+    "currency": "INR",
+    "items": [
+      {
+        "sku": "CDP-001",
+        "name": "Customer Data Platform",
+        "unit_price": 200000.0,
+        "qty": 1,
+        "subtotal": 200000.0
+      },
+      {
+        "sku": "REC-101",
+        "name": "Realtime Recommendations",
+        "unit_price": 150000.0,
+        "qty": 1,
+        "subtotal": 150000.0
+      },
+      {
+        "sku": "CNS-010",
+        "name": "Consent Manager",
+        "unit_price": 80000.0,
+        "qty": 1,
+        "subtotal": 80000.0
+      }
+    ],
+    "discount_pct": 10.0,
+    "subtotal": 430000.0,
+    "discount_amount": 43000.0,
+    "tax_pct": 18.0,
+    "tax_amount": 69660.0,
+    "total": 456660.0
+  }
+}
