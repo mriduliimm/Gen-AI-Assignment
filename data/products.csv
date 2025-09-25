@@ -1,0 +1,6 @@
+sku,name,category,features,benefits,prereqs,regions,price
+CDP-001,Customer Data Platform,Data,profiles;identity;segments;consent,Unified profiles;RFM segmentation;privacy controls,Cloud account;S3 bucket,IN|US|EU,200000
+REC-101,Realtime Recommendations,Personalization,recommendations;web sdk;catalog,Increase conversion;AOV uplift;dynamic placements,CDP-001,IN|US,150000
+CNS-010,Consent Manager,Compliance,consent;gdpr;ccpa,Compliance-ready consent capture;audit trails,None,IN|EU,80000
+MSG-020,Messaging Orchestrator,Messaging,journeys;channels;email;sms,Automate campaigns;reduce churn,CDP-001,US|IN,120000
+ANL-030,Analytics Dashboard,Analytics,dashboards;kpis;attribution,Track KPIs;insights;ROI,None,IN|US|EU,60000
